@@ -1,5 +1,5 @@
 from setuptools import setup
-from images_utils import __version__
+from images_utils_978.images_utils import __version__
 
 setup(
     name='images-utils-978',
