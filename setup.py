@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from images_utils_978.images_utils import __version__
 
 setup(
@@ -9,7 +9,7 @@ setup(
     author='seppia978',
     author_email='samuele.poppi@uninmore.it',
 
-    py_modules=['images_utils_978'],
+    py_modules=find_packages(),
     install_requires=[
         'setuptools',
         'torch',
